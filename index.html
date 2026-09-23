@@ -4,14 +4,48 @@
 <meta charset="utf-8">
 <title>TEst Project</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="TEst Project — outils personnels d'automatisation (emails, agenda, secrétaire IA), usage privé uniquement.">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>
-  body { font-family: system-ui, sans-serif; max-width: 40em; margin: 3em auto; padding: 0 1em; line-height: 1.5; color: #222; }
-  h1 { font-size: 1.4em; }
+  body { font-family: system-ui, sans-serif; max-width: 40em; margin: 3em auto; padding: 0 1em; line-height: 1.6; color: #222; }
+  .header { display: flex; align-items: center; gap: 0.7em; }
+  .header img { width: 48px; height: 48px; border-radius: 11px; }
+  h1 { font-size: 1.6em; margin: 0; }
+  .tagline { color: #555; margin-top: 0.4em; }
+  h2 { font-size: 1.1em; margin-top: 1.8em; }
+  ul { padding-left: 1.3em; }
+  li { margin: 0.4em 0; }
+  footer { margin-top: 3em; padding-top: 1em; border-top: 1px solid #ddd; color: #666; font-size: 0.9em; }
+  footer a { color: #666; }
 </style>
 </head>
 <body>
-<h1>TEst Project</h1>
-<p>Ensemble d'outils personnels d'automatisation (indexation d'emails, secrétaire assisté par IA, gestion d'agenda) développés et utilisés par une seule personne pour son usage privé. Pas de service public, pas d'inscription, pas d'usage commercial.</p>
-<p><a href="/privacy.html">Politique de confidentialité</a></p>
+<div class="header">
+  <img src="/logo.png" alt="Logo TEst Project">
+  <h1>TEst Project</h1>
+</div>
+<p class="tagline">Outils personnels d'automatisation — emails, agenda, assistant IA.</p>
+
+<p>TEst Project est un ensemble de scripts et de services développés et utilisés par une seule personne (le développeur) pour la gestion de sa propre messagerie et de son propre agenda. Ce n'est pas un service public : pas d'inscription, pas d'autres utilisateurs, aucun usage commercial.</p>
+
+<h2>Fonctionnalités</h2>
+<ul>
+  <li><strong>Indexation d'emails</strong> — recherche locale et tri automatisé des messages reçus sur les boîtes du développeur.</li>
+  <li><strong>Secrétaire assisté par IA</strong> — un assistant qui s'appuie sur les emails indexés pour répondre à des questions et effectuer des tâches simples (ex. repérer une commande, un rendez-vous) pour le compte du développeur.</li>
+  <li><strong>Gestion d'agenda</strong> — consultation et mise à jour des événements Google Agenda du développeur.</li>
+</ul>
+
+<h2>Accès demandés</h2>
+<p>Lorsque le développeur autorise l'application avec son propre compte Google, elle demande :</p>
+<ul>
+  <li><strong>Gmail</strong> (lecture, gestion de brouillons) — pour indexer et rechercher les emails localement.</li>
+  <li><strong>Google Agenda</strong> (lecture et écriture) — pour consulter et mettre à jour les événements.</li>
+</ul>
+<p>Cette page et la politique de confidentialité sont consultables librement, sans connexion à aucun compte.</p>
+
+<footer>
+  <p><a href="/privacy.html">Politique de confidentialité</a> · Contact : dtcherkez@gmail.com</p>
+</footer>
 </body>
 </html>
